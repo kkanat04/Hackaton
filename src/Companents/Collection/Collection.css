@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.collection_title {
+
+    position: absolute;
+
+    top: 43%;
+    
+    left: 36%;
+
+}
+.year {
+    position: absolute;
+
+    top: 53%;
+
+    left: 27%;
+}
+
+.collections{
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    background-color: #fafafa;
+    
+
+}
+
+.wrap_collections{
+
+    width: 100%;
+
+    display: flex;
+
+    padding-left: 17px;
+
+    margin-top: 4%;
+
+
+
+
+}
+
+.collections_item img{
+
+    width: 95%;
+
+}
+.collections_item {
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 70px;
+    
+}
+
+
+
+
+.collecton_h3{
+
+    font-size: 23px;
+
+    margin-top: 8%;
+
+    font-family: 'Lato', sans-serif;
+
+    font-weight: 300;
+
+    text-align: center;
+
+}
+.collections_item {
+    position: relative;
+}
+
+@media (max-width: 736px) {
+    .wrap_collections{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.collecton_h3{
+    padding-top: 90px;
+}
+.collections_item{
+    margin-bottom: 2%;
+}
+.collections{
+    padding-bottom: 24px;
+}
+
+}

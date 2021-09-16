@@ -1,0 +1,89 @@
+.create_account_wrap{
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    padding: 9vh;
+}
+.main_create_account_wrap{
+    background-color:  #fafafa;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create_account_wrap{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_register,
+.register_title{
+    display: flex;
+    flex-direction: column;
+}
+.login_register{
+    width: 75%;
+   
+}
+.btn_reg{
+    height: 45px;
+    border: 1px solid #d9d9d9;
+    background: transparent;
+    padding: 7px;
+    margin-bottom: 4%;
+    
+}
+.btn_reg:focus{
+    outline: none;
+        border: 1px solid #000;
+}
+.btn_submit{
+    height: 45px;
+    border: 1px solid #000;
+    padding: 7px;
+    background: white;
+
+}
+.register_title{
+    height: 100px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.title_create_register{
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding-bottom: 4%;
+}
+.register_info{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.title-enter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+}
+.enter-title {
+    color: #000;
+}
+.account-title {
+    color: #6a6a6a;
+    margin-right: 2%;
+}
+.err {
+    font-size: 13px;
+    color: red;
+    width: 100%;
+    padding-bottom: 13px;
+    text-align: center;
+}

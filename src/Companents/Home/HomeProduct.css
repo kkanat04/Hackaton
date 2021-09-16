@@ -1,0 +1,52 @@
+.plash {
+    width: 390px;
+    height: 550px;
+}
+.white{
+    width: 390px;
+    height: 550px;
+    transition: 1s;
+}
+.cardigan{
+    width: 390px;
+    height: 550px;
+}
+.pleats{
+    width: 390px;
+    height: 550px;
+}
+.first p {
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+.text-p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.divbut {
+    display: flex;
+    justify-content: center;
+    
+}
+.shop {
+    font-size: 15px;
+    width: 250px;
+    height: 45px;
+    color: #000;
+    background: #ffffff;
+    margin-top: 50px;
+    border: 1px solid #000;
+    margin-bottom: 70px;
+}

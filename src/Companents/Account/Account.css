@@ -1,0 +1,78 @@
+
+    .main_account{
+        background-color:  #fafafa;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap_account{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login_account,
+    .login_title{
+
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .wrap_title{
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    .wrap_info{
+        font-size: 14px;
+    }
+    .ques_login{
+        color: #6a6a6a;
+        margin-right: 2%;
+    }
+    .ques_cr_ac{
+        color: #000;
+    }
+    
+    .create_one_title,
+    .login_title,
+    .wrap_login,
+    .wrap_info{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+        width: 100%;
+        
+    }
+    .inp_login:focus{
+        outline: none;
+        border: 1px solid #000;
+        
+
+    }
+    .inp_login,
+    .btn_login{
+        height: 40px;
+        border: 1px solid #d9d9d9;
+        background: transparent;
+        padding: 7px;
+        margin-bottom: 4%;
+    }
+    .btn_login{
+        background-color: white;
+        border: 1px solid #000;
+        letter-spacing: 2px;
+
+    }
+
+.error {
+    font-size: 13px;
+    color: red;
+    width: 100%;
+    padding-bottom: 13px;
+    text-align: center;
+}

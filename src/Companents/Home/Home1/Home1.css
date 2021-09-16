@@ -1,0 +1,78 @@
+.girl {
+    width: 400px;
+}
+
+.home1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.block-text {
+    padding-bottom: 30px;
+    width: 400px;
+    text-align: center;
+}
+.block-text2 {
+    padding-top: 30px;
+    width: 400px;
+    text-align: center;
+}
+@media (max-width:736px) {
+
+    .page1 {
+        background-image: url(https://cdn.shopify.com/s/files/1/1320/6057/files/Screen_Shot_2021-04-04_at_10.24.18_AM_1500x.jpg?v=%22);
+        width: 100%;
+        height: 56vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100%; */
+    }
+    element.style {
+        width: 90%;
+        margin-left: 18px;
+    }
+}
+
+
+@media (max-width:736px) {
+    .block {
+        width: 100%;
+    }
+
+    .block1 img {
+        width: 69%;
+        margin-left: 65px;
+    }
+    
+    .home1 {
+        display: block;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+    .block-text2 {
+    padding-top: 30px;
+    width: 400px;
+    text-align: center;
+    color: black;
+    line-height: 1.65;
+    }
+    .girl1{
+    width: 84%;
+    margin-left: 36px;
+    margin-top: 40px;
+    }
+    .home1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+
+}

@@ -1,0 +1,232 @@
+.page1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/1320/6057/files/Screen_Shot_2021-04-04_at_10.24.18_AM_1500x.jpg?v=%22);
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineSignature{
+    color: #ffffff;
+    font-size: 20px;
+}
+    
+.signature {
+    flex-grow: 0;
+    text-shadow: 0 1px rgb(0 0 0 / 50%);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.signature h2 {
+    text-align: center;
+}
+.discover {
+    color: #ffffff;
+    flex-grow: 0;
+    text-shadow: 0 3px rgb(0 0 0 / 50%);
+    margin-top: 25px;
+}
+.plash {
+    width: 390px;
+    height: 600px;
+}
+.white{
+    width: 390px;
+    height: 600px;
+    transition: 1s;
+}
+.cardigan{
+    width: 390px;
+    height: 600px;
+}
+.pleats{
+    width: 390px;
+    height: 600px;
+}
+.first p {
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+.text-p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.discover_the_collection{
+    color: white;
+    width: 30%;
+}
+.product {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.divbut {
+    display: flex;
+    justify-content: center;
+    
+}
+.shop-ss {
+    font-size: 15px;
+    width: 250px;
+    height: 45px;
+    color: #000;
+    background: #ffffff;
+    margin-top: 50px;
+    border: 1px solid #000;
+    margin-bottom: 70px;
+}
+.vacation {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+.vacation img {
+    width: 50%;
+    height: 100%;
+}
+.onVacation {
+    font-size: 18px;
+    color: #1c1b1b;
+    margin-top: 18px;
+
+}
+
+.holiday {
+    font-size: 15px;
+    margin-top: 18px;
+}
+.divp{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+.kaftans{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.whiteHat {
+    width: 400px;
+    height: 600px;
+}
+.summer2021 {
+    background-image: url(https://cdn.shopify.com/s/files/1/1320/6057/files/Collection_Cover_1500_x_800_2c22d41d-a5c6-48d5-a419-83e9036ecfbb_1500x.jpg?v=1611161995);
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(80%);
+    margin-top: 100px;
+
+}
+
+.textsummer {
+    flex-grow: 0;
+    text-shadow: 0 1px rgb(0 0 0 / 50%);
+    margin-top: 5px;
+}
+.spring-p {
+ color: black;
+ font-size: 30px;
+}
+.textsummer p {
+color: black;
+font-size: 15px;
+}
+
+
+/* @media (max-width:1600px) {
+    .plash{
+        width: 200;
+    }
+} */
+
+
+
+
+@media (max-width:736px) {
+    .product {
+        /* display: flex;
+        width: 100%; */
+        
+        visibility: hidden;
+    }
+    
+    .first p{
+        width: 30%;
+        font-size: 12px;
+    }
+    .first {
+        width: 50%;
+
+    }
+    .plash{
+        visibility: hidden;
+    }
+    .vacation {
+        display: block;
+            width: 180%;
+    }
+    .vacation img {
+        width: 50%;
+        margin-left:  5px;
+    }
+    .onVacation {
+        font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 18px;
+    }
+    .divp {
+        width: 35%;
+        margin-left: 55px;
+    }
+    .whiteHat {
+        width: 87%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .kaftans {
+        display: block;
+    }
+  
+    
+}

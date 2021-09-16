@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header {
+    width: 100%;
+    height: 9vh;
+    background-color: #fff;
+    box-shadow: 0 0 1px rgb(95, 95, 95);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 100;
+    top: 0px;
+}
+.logo {
+    width: 135px;
+    height: 17px;   
+}
+.ser {
+    width: 25px;
+    height: 23px;
+}
+.account {
+    width: 25px;
+    height: 23px;
+}
+.search {
+    height: 25px;
+    width: 23px;
+}
+.cart {
+    height: 25px;
+    width: 23px;
+}
+.hd-text {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    letter-spacing: .2em;
+    color: #1c1b1b;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.bur {
+    display: none;
+}
+.hd-text p {
+    color: #1c1b1b;
+}
+.icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+.logo-conteiner img {
+    display: flex;
+    justify-content: center;
+}
+.center {
+    width: 500px;
+}
+.burger_menu{
+    display: none;
+}
+.login-p {
+    color: black;
+}
+
+@media (max-width: 414px) and (min-width: 400px) {
+    .hd-text{
+        display: none;
+    }
+    .burger_menu{
+        display: block;
+        margin-left: 6%;
+    }
+    .burger_icon{
+        height: 26px;
+    }
+    .icons{
+        width: 61%;
+        margin-left: 70px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo-conteiner{
+        margin-left: 8%;
+        width: 65%;
+    }
+   
+    .center{
+        width: 64%;
+    }
+    .icons div svg{
+        width: 74%;
+    }
+    .burger_icon {
+        height: 26px;
+        margin-top: 10px;
+    }
+    .div-burger {
+        width: 100%;
+        height: 200vh;
+        position: fixed;
+        background-color: black;
+        overflow: hidden;
+    }
+    .bur-text {
+        margin-top: 172%;
+        color: #fff;
+        margin-left: 3%;
+    }
+    .bur-text p {
+        color: #fff;
+    }
+    .burger_item_menu{
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        border-bottom: 1px solid white;
+        width: 40%;
+    }
+    .close_img{
+        width: 10%;
+        margin-left: 82%;
+        position: absolute;
+        margin-top: -2%;
+    }
+    .center {
+        display: none;
+    }
+   
+  
+    
+}

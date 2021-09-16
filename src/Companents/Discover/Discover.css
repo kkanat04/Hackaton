@@ -1,0 +1,131 @@
+.discover {
+    width: 100%;
+}
+.singatureLine {
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.h2 {
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    text-transform: none;
+    font-size: 34px;
+}
+.line {
+    background-image: url(https://cdn.shopify.com/s/files/1/1320/6057/files/BOGUESSA_8011-1_copy_3_8503b942-81c3-4824-a73d-9cc9543702b1_1000x.jpg?v=1616016575%22);
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+}
+.about {
+    width: 100%;
+    height: 100%;
+}
+.dreses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+.divColectionP {
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    line-height: 2;
+    width: 50%;
+    margin-left: 90px;
+
+}
+.aboutTheColection {
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+
+}
+.discover {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.thirdlaunch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.divAbout {
+    width: 50%;
+    margin-right: 30px;
+}
+.about {
+    margin-top: 40px;
+    width: 100%;
+}
+.dreses {
+      display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.dresimg {
+    width: 47%;
+}
+
+.girlimg {
+    width: 100%;
+}
+.signature {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 100%;
+}
+.signatureImg {
+    width: 47%;
+    margin-left: 40px;
+}
+.signature p {
+    width: 100%;
+    font-size:  17px;
+    line-height: 2;
+}
+.lastimg {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+.lastimg img {
+    width: 47%;
+
+}
+@media (max-width:736px) {
+    .line {
+        background-image: url(https://cdn.shopify.com/s/files/1/1320/6057/files/BOGUESSA_8011-1_copy_3_8503b942-81c3-4824-a73d-9cc9543702b1_1000x.jpg?v=1616016575%22);
+        width: 100%;
+        height: 35vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: brightness(80%);
+    }
+}

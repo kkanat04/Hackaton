@@ -1,0 +1,39 @@
+.girl {
+    width: 400px;
+    
+}
+
+.home1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.block-text {
+    padding-bottom: 30px;
+    width: 400px;
+    text-align: center;
+}
+.block-text2 {
+    padding-top: 30px;
+    width: 400px;
+    text-align: center;
+}
+.effortless2 {
+    width: 800px;
+}
+
+@media (max-width:736px) {
+    .effortless2 {
+        width: 87%;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .summer2021 {
+        width: 90%;
+        height: 39vh;
+        margin-left: 17px;
+    }
+
+}

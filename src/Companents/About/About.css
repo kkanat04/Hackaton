@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.about {
+    padding-top: 9vh;
+    background-color: #fafafa;
+}
+.about h1 {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+.about_img {
+    width: 500px;
+    height: 600px;
+}
+.about-img {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-text {
+    text-align: center;
+    margin-top: 60px;
+
+}
+.about-text p {
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+.first-child {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.kanat-v-dele-skill-na-pridele {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.ab {
+    width: auto;
+    height: 500px;
+}
+@media (max-width: 736px) {
+    .about-img {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7%;
+    }
+    .about-img img {
+        width: 374px;
+        height: 450px;
+        margin-bottom: 4%;
+    }
+    .about-text{
+    text-align: center;
+    margin-top: 60px;
+    width: 80%;
+    margin: auto;
+    line-height: 32px;
+
+    }
+    .kanat-v-dele-skill-na-pridele{
+        display: flex;
+        flex-direction: column;
+    }
+    .kanat-v-dele-skill-na-pridele img {
+        width: 374px;
+        height: 450px;
+        margin-bottom: 4%;
+    }
+    .about-text p {
+        padding-top: 30px;
+    }
+    
+}
